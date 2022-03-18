@@ -1,0 +1,44 @@
+GRID_TYPE
+                  UNSTRUCTURED
+                    DATA SITES
+                        xR6.in
+                   ALS MAXITER
+10
+                      FUNCTION
+10 
+                FUNC FILE NAME
+                       g_x5.in
+                     ERROR TOL 
+  0.0000100000000000 
+       LEN OF POLY ORDER ARRAY
+1 
+              POLY ORDER ARRAY
+5 
+                      MAX RANK 
+6 
+                     POLY TYPE 
+                 ORTH_LEGENDRE 
+             INTEGRATION ORDER 
+3 
+                         C_MIN
+-10.0000000000000000 
+                         C_MAX 
+ 10.0000000000000000 
+                 LAPACK SOLVER 
+                         DGELS 
+                  PROBLEM TYPE 
+                           LLS 
+           TIKHONOV REG. STATE 
+                           OFF 
+         REGULARIZATION PARAM. 
+  0.0000000000000000 
+                 OUT FILE NAME 
+6d_10000_Nodes_UNSTRUCTURED_mesh_traffic.out 
+             RUNTIME DATA FILE 
+6d_10000_Nodes_UNSTRUCTURED_mesh.runtime 
+                     MESH FILE 
+6d_10000_Nodes_UNSTRUCTURED_mesh.dat 
+                     PLOT FILE 
+6d_10000_Nodes_UNSTRUCTURED_mesh_traffic_MATLABplot.dat 
+                    RESOLUTION 
+100 

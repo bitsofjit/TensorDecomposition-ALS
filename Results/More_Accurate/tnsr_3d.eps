@@ -1,0 +1,4353 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.1.0.604 (R2013a). Operating System: Darwin 14.1.0 Darwin Kernel Version 14.1.0: Thu Feb 26 19:26:47 PST 2015; root:xnu-2782.10.73~1/RELEASE_X86_64 x86_64.
+%%Title: /Users/SubhajitPriyanki/Studies/UCDavis/Research/MyCodes/TensorDecomposition/Results/More_Accurate/tnsr_3d.eps
+%%CreationDate: 04/07/2015  23:57:36
+%%DocumentNeededFonts: Helvetica
+%%+ Helvetica-Bold
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:  -333    67   946   723
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:  -333    67   946   723
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode -3996 8676 csm
+
+    0     0 15359  7872 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 15360 7873 rf
+6 w
+0 3979 -4523 -1510 0 -3980 13900 6080 4 MP
+PP
+4523 1511 0 3979 -4523 -1510 0 -3980 13900 6080 5 MP stroke
+4523 1511 7381 -926 -4523 -1511 6519 7006 4 MP
+PP
+-7381 926 4523 1511 7381 -926 -4523 -1511 6519 7006 5 MP stroke
+0 3979 7381 -925 0 -3980 1996 5495 4 MP
+PP
+-7381 926 0 3979 7381 -925 0 -3980 1996 5495 5 MP stroke
+4 w
+DO
+0 sg
+6519 7006 mt 1996 5495 L
+1996 5495 mt 1996 1515 L
+7257 6913 mt 2735 5402 L
+2735 5402 mt 2735 1423 L
+7995 6820 mt 3473 5310 L
+3473 5310 mt 3473 1330 L
+8733 6728 mt 4211 5217 L
+4211 5217 mt 4211 1238 L
+9471 6635 mt 4949 5124 L
+4949 5124 mt 4949 1145 L
+10209 6543 mt 5687 5032 L
+5687 5032 mt 5687 1052 L
+10947 6450 mt 6425 4939 L
+6425 4939 mt 6425  960 L
+11685 6357 mt 7163 4847 L
+7163 4847 mt 7163  867 L
+12423 6265 mt 7901 4754 L
+7901 4754 mt 7901  775 L
+13161 6172 mt 8639 4662 L
+8639 4662 mt 8639  682 L
+13900 6080 mt 9377 4569 L
+9377 4569 mt 9377  590 L
+6519 7006 mt 13900 6080 L
+13900 6080 mt 13900 2100 L
+5615 6703 mt 12995 5778 L
+12995 5778 mt 12995 1798 L
+4710 6401 mt 12090 5475 L
+12090 5475 mt 12090 1496 L
+3806 6099 mt 11186 5173 L
+11186 5173 mt 11186 1194 L
+2901 5797 mt 10281 4871 L
+10281 4871 mt 10281  892 L
+1996 5495 mt 9377 4569 L
+9377 4569 mt 9377  590 L
+1996 5495 mt 9377 4569 L
+9377 4569 mt 13900 6080 L
+1996 4699 mt 9377 3773 L
+9377 3773 mt 13900 5284 L
+1996 3903 mt 9377 2977 L
+9377 2977 mt 13900 4488 L
+1996 3107 mt 9377 2181 L
+9377 2181 mt 13900 3692 L
+1996 2311 mt 9377 1385 L
+9377 1385 mt 13900 2896 L
+1996 1515 mt 9377  590 L
+9377  590 mt 13900 2100 L
+SO
+6 w
+1996 5495 mt 9377 4569 L
+1996 1515 mt 9377  590 L
+13900 6080 mt 9377 4569 L
+13900 2100 mt 9377  590 L
+9377 4569 mt 9377  590 L
+1996 5495 mt 1996 1515 L
+6519 7006 mt 13900 6080 L
+6519 7006 mt 1996 5495 L
+1996 5495 mt 1996 1515 L
+6519 7006 mt 6696 7064 L
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold /ISOLatin1Encoding 192 FMSR
+
+6728 7259 mt 
+(0) s
+7257 6913 mt 7434 6972 L
+7466 7167 mt 
+(0.1) s
+7995 6820 mt 8172 6879 L
+8204 7074 mt 
+(0.2) s
+8733 6728 mt 8910 6787 L
+8942 6982 mt 
+(0.3) s
+9471 6635 mt 9648 6694 L
+9680 6889 mt 
+(0.4) s
+10209 6543 mt 10386 6602 L
+10418 6796 mt 
+(0.5) s
+10947 6450 mt 11124 6509 L
+11157 6704 mt 
+(0.6) s
+11685 6357 mt 11862 6416 L
+11895 6611 mt 
+(0.7) s
+12423 6265 mt 12600 6324 L
+12633 6519 mt 
+(0.8) s
+13161 6172 mt 13338 6231 L
+13371 6426 mt 
+(0.9) s
+13900 6080 mt 14076 6139 L
+14109 6334 mt 
+(1) s
+6519 7006 mt 6335 7029 L
+6194 7217 mt 
+(0) s
+5615 6703 mt 5430 6727 L
+5130 6915 mt 
+(0.2) s
+4710 6401 mt 4526 6424 L
+4225 6613 mt 
+(0.4) s
+3806 6099 mt 3621 6122 L
+3321 6311 mt 
+(0.6) s
+2901 5797 mt 2717 5820 L
+2416 6008 mt 
+(0.8) s
+1996 5495 mt 1812 5518 L
+1672 5706 mt 
+(1) s
+1996 5495 mt 1820 5436 L
+1681 5498 mt 
+(0) s
+1996 4699 mt 1820 4640 L
+1521 4702 mt 
+(0.2) s
+1996 3903 mt 1820 3844 L
+1521 3906 mt 
+(0.4) s
+1996 3107 mt 1820 3048 L
+1521 3110 mt 
+(0.6) s
+1996 2311 mt 1820 2252 L
+1521 2314 mt 
+(0.8) s
+1996 1515 mt 1820 1456 L
+1681 1518 mt 
+(1) s
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2129 3984 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6855 4176 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3968 2939 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4097 4900 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5198 3921 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3473 5571 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7383 4376 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3949 4147 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5431 1342 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4741 4148 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5074 3410 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4839 2595 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7237 3460 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7933 4661 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7722 4735 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5550 6537 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5254 5518 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5130 3902 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5755 4337 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5984 2485 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7334 3162 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7835 5114 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6088 3932 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5256 5719 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6854 3345 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6905 3650 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8020 2417 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7976 3396 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8439 4441 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8742 1917 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7039 1913 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6991 5073 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7604 2148 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3478 2275 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3727 2061 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9001 5576 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7720 4633 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7446 1569 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6268 3180 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6168 3895 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3755 5548 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8155 5243 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8420 3730 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6647 4356 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8159 5445 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9847 3325 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10400 1674 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10670 1726 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4978 2854 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4984 4597 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3959 2383 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6706 6593 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6627 1381 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6073 2389 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7629 3108 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9469 4779 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10059 5731 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8372 4937 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9384 5349 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7303 4814 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10133 2892 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11227 4430 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11221 3392 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10130 3053 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11312 3150 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8206 5045 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2545 1877 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5135 3831 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10505 5340 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11697 5062 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12334 5102 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12086 4959 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6637 2903 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8399 2862 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5339 3620 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4275 2532 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10660 2762 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10478 2806 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10198 6385 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11545 5452 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7823 4207 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11110 4887 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11130 4484 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12929 2507 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11775 5484 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12547 3985 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7837 6294 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9265 2935 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9417 3461 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10059 3320 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13491 5388 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13040 5626 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10182 2849 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9733 3588 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9672 3256 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9307 2790 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12390 3368 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11547 3284 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13062 2494 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11534 3234 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10798 3869 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11113 3184 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11390 3875 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13401 2995 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6650 2888 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7539 3586 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9415 2958 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9024 4449 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9462 3001 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12782 2328 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10744 2695 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8038 3206 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7332 2437 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8684 4194 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7334 2992 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8988 2851 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9811 4279 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8247 4005 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12560 2242 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9912 2593 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10434 3969 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10776 3242 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10709 2978 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8215 2899 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10912 2635 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9611 4372 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10105 3369 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10300 4223 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9213 4744 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9756 6283 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11868 5550 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12855 4715 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13472 5877 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12433 4055 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12431 4578 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11982 3217 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11644 3164 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12378 3140 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12260 5857 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7887 6539 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8127 6710 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7932 2736 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10928 3800 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11440 3147 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8714 2681 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12457 2305 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12611 2213 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12347 3775 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12548 3488 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10121 5399 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12034 3252 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13079 2397 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12218 3702 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11695 3770 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11392 5730 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10499 4693 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10754 4105 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12161 3148 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10712 4361 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11306 2760 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11424 5058 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11957 2816 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7589 2499 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11890 2543 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5476 5767 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5151 5169 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4336 3753 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5776 4387 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6670 4108 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5388 3784 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4445 3396 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5667 4679 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6462 4482 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4655 4059 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11489 4587 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13191 2539 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6612 4607 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9535 3882 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10166 2363 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9121 2907 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10971 2779 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12834 3054 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6285 5196 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8513 5028 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10020 4599 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7210 5552 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11768 4761 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5657 2797 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6380 2191 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9674 2446 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6346 3708 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10537 3602 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8795 4864 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10669 4131 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8915 1197 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10047 3006 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12195 5509 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12246 5306 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11216 5407 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12334 5468 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12103 4243 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11097 3607 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12092 4837 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10517 1345 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11998 2128 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9526 3298 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10812 2412 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9334 3442 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11407 3542 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9611 3061 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9454 3683 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11322 5863 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10360 6169 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12241 5125 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8796 4883 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10131 3416 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8068 5724 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11347 5090 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8162 5339 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9509 4690 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8184 2950 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7417 3424 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9084 4241 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5777 5357 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6111 5065 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6684 5331 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6105 4769 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8830 4648 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6748 6077 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11349 3759 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7193 2721 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8480 3088 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8267 3165 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11510 1865 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10126 2184 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11771 3208 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10239 1342 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12936 3083 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5222 4409 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10347 5147 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7084 4646 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9578 3962 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9283 3082 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9421 4845 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8400 5864 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9811 3727 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7108 2229 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6101 3698 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6106 2081 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9438 2396 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7819 2459 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11547 2372 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5783 1832 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6025 2230 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6942 1851 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8586 1302 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10237 1782 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8043 1770 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8290 2001 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9677 2333 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10813 2239 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11356 1579 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8097 5296 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9184 2585 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8292 2593 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11794 2837 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11744 1872 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12584 1870 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11908 4893 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9848 5737 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11130 5181 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8812 1983 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9243 2996 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10196 4759 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11060 3980 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7884 3656 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12176 3918 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7862 4514 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11736 3118 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10053 5069 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11855 5278 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10462 5937 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11679 2914 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9165 2089 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10548 1956 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9259 2409 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11677 2129 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9132 1854 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11233 3890 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8014 2717 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10236 2710 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8211 4675 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11358 3479 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9492 3729 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9968 2021 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10181 4038 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9684 3481 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8867 2908 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9300 2559 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8741 1262 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11835 4992 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7901 1247 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6276 1861 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10975 3249 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10023 4514 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10524 5493 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10090 2656 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11662 3567 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10943 2089 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11893 2957 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10003 4632 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11837 4732 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9793 3608 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10742 3517 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10109 5485 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9789 3377 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10258 4374 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9651 5097 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10072 5142 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10338 6052 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10025 5969 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9691 6096 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9963 4393 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10110 3168 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9628 3328 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10478 2368 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9559 3311 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9565 2248 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11361 5227 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9151  928 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10063 5510 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8705 3662 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11708 4839 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8362 2856 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6902 3186 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9645 5894 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8893 1693 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7000 2541 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11149 1584 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8009 3097 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9919 5075 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7992 4053 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9645 4013 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7775 3241 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10639 5225 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9419 3393 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9856 3829 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7737 3970 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8854 3216 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7397 4162 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11171 3060 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7625 5179 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10841 3627 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6823 5020 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6818 3775 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12793 3335 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6333 2409 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10776 3728 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6990 3024 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8772 2987 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7238 2193 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9670 5491 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6328 5411 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7150 6119 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6053 4927 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8266 6070 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6724 5299 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9201 5193 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6647 4485 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9270 3798 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6549 3895 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11271 4828 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6745 3685 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8240 3288 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5187 2860 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7684 3170 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5828 3033 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7465 3402 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5740 4214 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6790 3510 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6668 3357 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5939 5242 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7637 6409 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6252 4889 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7912 5431 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7170 5025 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8689 5429 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7141 4112 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7703 3521 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6349 2437 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12794 3203 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9092 2519 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10315 2696 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8564 2343 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8870 3196 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8542 2824 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11090 4745 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10719 1950 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11743 2627 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10127 1325 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11629 4735 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10659 4739 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11166 4288 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9469 4700 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9757 5004 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9316 4769 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9636 5038 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8553 4273 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8806 4105 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8026 2894 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10205 1836 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7453 3376 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8177 2471 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7475 2740 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9545 2010 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9380 4163 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9632 5608 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11695 5848 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7535 6489 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9312 4743 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7746 1975 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9653 2624 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7491 2929 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8742 3367 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7843 3689 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8347 3766 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7664 4917 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11100 1477 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6359 2699 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6412 2857 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5921 3899 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9472 2715 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7070 2529 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11663 5242 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7619 4852 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9739 4638 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8457 4702 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8727 3578 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8509 3716 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9686 4167 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7569 4774 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7937 4327 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6531 4923 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9902 2334 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6591 3494 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9198 2365 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8474 3333 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9628 5729 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8434 4896 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9189 2606 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9244 4415 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10535 3419 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9167 4058 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9656 4381 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8204 3896 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10262 3214 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8733 5202 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10844 5666 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7292 6731 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7875 6643 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7341 5203 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7342 5667 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10515 2308 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6932 4344 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9186 2460 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6981 3848 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8792 2769 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7423 2801 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9780 2472 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7253 3592 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 12248 2791 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5361 3228 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10796 3389 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4696 3123 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4763 5487 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6333 5531 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7590 2426 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6866 2935 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7453 4598 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6895 4813 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10789 3698 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7444 3556 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10388 5172 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7443 4955 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7510 5641 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8810 4810 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7353 3560 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7350 5797 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7554 5672 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6850 5933 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11587 2286 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6360 3295 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10375 2118 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3962 4810 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7467 3008 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4376 2870 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5981 3484 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4747 2881 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4597 2534 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10929 2930 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8969 1206 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10898 3104 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8928 2989 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10811 2906 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7507 3609 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11126 3938 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7444 3093 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9527 2118 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7784 4903 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10425 3131 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8964 1875 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9817 1994 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8737 1610 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11720 4245 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8948 3861 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11908 2494 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8832 6161 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11945 5368 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8557 4434 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8500 4591 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10076 3832 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8919 3705 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9214 4724 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8757 3278 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10433 2866 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6463 6268 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9993 3153 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4887 3344 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7807 4600 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2348 1652 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5072 2959 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9571 1639 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4504 2225 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7360 3284 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6747 3355 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6875 3260 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9510 2077 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6244 2739 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5774 2838 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9775 4377 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7367 4902 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8000 5504 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7298 2122 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9403 3705 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7271 4603 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8996 5425 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7256 4608 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8440 4178 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6826 2962 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6850 4916 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10127 6135 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6864 4493 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9402 3489 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6859 3734 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6856 2316 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8388 3818 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6717 5269 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9109 5207 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7230 4721 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8201 3159 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7189 4323 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7220 1677 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8272 3744 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7185 4607 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7180 2400 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8135 3705 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7223 2065 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6879 1392 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10789 3126 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6930 2579 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9520 2040 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8234 2264 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10062 1606 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7876 3410 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9082 3624 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10144 1573 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8418 2591 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10119 2370 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8986 1544 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10110 2082 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8260 3451 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10671 4319 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8483 1705 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7939 3967 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7687 3893 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9925 4289 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7561 4645 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9394 4773 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7569 5268 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9283 5721 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7309 6834 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11187 3899 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6629 6748 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8839 4958 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6537 5975 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7893 5449 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7097 5280 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7105 1794 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7099 2665 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10176 1873 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6534 3590 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9105 1179 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6542 2291 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9512 1522 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6179 1220 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9153 2477 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6257 1571 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7443 4017 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5762 5101 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9034 4514 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6097 5045 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6861 3229 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6676 2258 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7743 4486 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7075 5157 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7067 3447 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7036 4580 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9020 3692 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7043 3942 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9580 5634 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6915 4463 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7363 4484 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6609 3617 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10910 2185 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6092 3119 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10815 3528 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3239 3471 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3459 3813 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6914 5686 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5820 5497 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9481 5526 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6046 5340 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9296 2202 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5155 2742 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5165 2190 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9333 3753 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5582 2508 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5750 2358 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6226 3453 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6057 2519 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8917 2178 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6239 2590 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10081 2937 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6208 5709 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9230 4313 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6680 4793 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9780 2132 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6826 3062 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6237 3121 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8670 3458 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6430 4782 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10793 4542 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6452 3606 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10423 2816 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6634 4281 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5910 4205 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8412 1811 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5846 2231 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9428 2482 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4923 4364 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11377 3163 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4425 4524 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7362 2602 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5999 3595 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5984 2254 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7537 3180 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5733 3246 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7016 3378 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5097 2324 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5093 2683 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9194 2698 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6068 4536 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6813 4763 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5464 4406 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7014 3720 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5689 3202 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6464 1832 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5340 3064 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5357 3591 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5893 3876 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4823 3323 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5791 4477 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4844 3876 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6990 4581 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5944 5395 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7516 5990 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6028 6190 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6029 3329 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10475 4798 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5131 3813 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7723 1972 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5009 2584 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8178 3202 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4460 2224 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7288 2783 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5050 2502 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10220 3554 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6532 3711 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6510 4417 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7429 5324 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6703 1748 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6653 2013 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10780 2985 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6568 1334 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8191 4075 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6164 4925 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9914 4894 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6159 5210 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8106 4523 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5710 5789 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6115 5805 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5614 4246 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9402 5081 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5736 2592 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9697 4636 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6708 2860 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8879 2698 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6994 2946 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7004 4334 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9358 3930 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6663 5353 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8463 5475 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5917 3855 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8684 4814 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6286 4612 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8527 1484 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6962 1597 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8886 2721 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7360 2541 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8079 1517 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9729 3549 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6348 3809 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9013 4286 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6295 3286 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6630 4038 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6317 4455 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6331 4366 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10857 3257 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6308 2921 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8447  965 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5664 2115 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5597 3829 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5560 1356 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5608 2391 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5544 4131 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5568 4507 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7343 4456 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6003 3088 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7660 4151 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9473 4854 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5280 5223 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5238 4467 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5210 4928 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9249 4819 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5674 4252 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6798 4793 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5989 4650 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5993 3440 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8240 3595 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5895 3252 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7282 3630 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5960 1830 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6308 1698 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6045 1801 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8369 2213 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8296 1290 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8930 4863 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8683 4832 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8974 4292 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7761 4727 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9605 3056 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5768 3916 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5652 3676 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5489 4030 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5612 3879 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5539 5509 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5622 3522 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5805 4153 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5400 5699 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8235 4539 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4560 4678 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8737 4797 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5352 6290 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9158 4009 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4992 2437 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5040 1873 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4996 5187 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5442 6162 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5120 5919 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7382 3719 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5426 3836 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8799 1494 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7346 6781 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6242 6340 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8096 3350 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8081 5118 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7667 3399 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7990 2297 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7937 2256 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10055 3915 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8158 2147 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7726 5182 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7467 4588 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8433 3071 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6667 4297 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7864 1906 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7859 4854 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8261 4449 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6225 5364 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6805 5057 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5374 5428 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5365 4824 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8180 2978 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5415 3104 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10178 3171 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5430 4274 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6160 4732 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5166 4473 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5362 4437 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5088 4496 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5087 2302 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5160 2752 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7083 4158 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4332 2834 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5764 3770 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4956 3057 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4461 2973 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4578 3060 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4089 3517 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6765 2496 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4503 4608 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4519 5086 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6656 3906 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4719 1435 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4629 2194 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6297 2550 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5723 3082 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4983 2547 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5042 3396 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8059 2767 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5704 2862 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6773 2828 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5843 3299 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8491 4915 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4952 4631 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7799 4411 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4933 3242 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4880 3851 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4848 3546 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7650 4377 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4708 2923 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4606 3316 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7013 4803 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4772 3742 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4799 5014 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8894 5191 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4497 5426 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5286 4863 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4015 3248 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6371 4245 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4180 3810 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4223 3838 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4199 2506 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7658 3383 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4179 3381 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6488 2514 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4450 2332 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8007 4716 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5608 3487 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5480 3044 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6205 1045 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6135 1191 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8266 3362 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6219 4458 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9692 2934 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4175 1752 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11598 2080 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4026 3842 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4527 4061 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4827 4550 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3912 4863 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3763 5391 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3721 5662 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6052 4511 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5342 4610 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8150 4793 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6815 3187 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5169 3070 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5160 2349 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8536 1951 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4505 3368 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8974 5328 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4424 2784 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4365 4283 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4424 1487 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6131 2818 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5475 2920 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7559 3779 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5027 3641 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5912 4743 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5103 4855 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5089 5819 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10289 5629 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4048 5803 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10469 5839 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5962 3857 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4126 4455 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6537 2674 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4598 2165 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6606 2376 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4358 4051 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3811 3718 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3354 3941 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5665 2925 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3717 4973 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3383 5500 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3352 4024 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5106 5712 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3792 2914 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3650 3411 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3628 3518 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3502 2429 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3379 2794 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2974 3997 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2474 3544 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3035 5131 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3048 5465 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3428 4097 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3345 2129 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3123 5251 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3433 3821 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8999 2211 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3570 3533 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 10032 4560 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2525 4546 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3097 3722 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2476 4199 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5473 3588 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6898 4785 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5336 5406 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8461 3202 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4302 1845 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4141 3542 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4293 4321 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4083 3668 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4117 5129 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4305 2593 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8015 2321 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4260 1673 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4175 3097 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4047 2091 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4445 2085 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3474 3104 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3863 2635 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3424 4601 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3869 3655 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3358 4862 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3835 5380 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3233 3483 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3517 2348 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3471 4465 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3682 5233 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3537 4899 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2947 4416 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2423 5438 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3370 1579 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3981 2195 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3048 3050 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9538 1480 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2201 4241 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2662 3947 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5725 2375 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3459 5341 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6189 4958 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4443 5238 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4429 5831 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6789 5641 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6361 5706 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 13534 2254 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11890 2445 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11255 2420 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 11238 5597 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9430 4713 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 9312 5251 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 8265 3112 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7870 3028 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 7668 2681 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6940 3321 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6789 6036 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6746 2958 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6717 3848 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6694 6657 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6444 4934 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 6316 4697 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5736 3899 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 5409 4037 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 4427 4509 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 3991 2261 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2609 2777 FO
+gs 1997 590 11904 6417 rc
+gr
+
+  36   36 2398 3464 FO
+gs 1997 590 11904 6417 rc
+6519 7006 mt 13900 6080 L
+6519 3026 mt 13900 2100 L
+6519 7006 mt 1996 5495 L
+6519 3026 mt 1996 1515 L
+13900 6080 mt 13900 2100 L
+6519 7006 mt 6519 3026 L
+gr
+
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
